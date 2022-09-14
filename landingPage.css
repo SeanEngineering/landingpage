@@ -1,0 +1,182 @@
+*{
+  font-family: Avenir;
+  padding: 0;
+  margin: 0;
+}
+
+body{
+  display: flex;
+  flex-direction: column;
+  flex:1;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 30px;
+  padding-right: 30px;
+  gap: 500px;
+  height: 50px;
+  background-color: #e3dac9;
+}
+
+nav > h3 {
+  padding-left: 0px;
+   color: black;
+ }
+
+ ul {
+  display: flex;
+  color: black;
+  padding: 0px;
+  gap: 15px;
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color:darkslategray;
+}
+
+a:hover {
+  color: brown;
+  transform: ;
+}
+
+.sign-up {
+  display: flex;
+  height: 30px;
+  width: 100px;
+  border-radius: 5px;
+  font-size: 1em;
+  text-decoration: none;
+  margin: 2px;
+  padding: 3px;
+  text-align: center;
+  justify-content: center;
+  align-content: center;
+  background-color: #e6d0ab;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  gap: 30px;
+  background-color: #e3dac9;
+}
+
+header .segment-group > p {
+  width: 400px;
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+
+header > img {
+  height: 300px;
+  width: auto;
+  border-radius: 5px;
+}
+
+.content {
+  display: flex;
+  flex: 1 0 auto;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  background-color: #e6d0ab;
+}
+
+.content > h3{
+  padding: 30px;
+  text-align: center;
+}
+
+.projects {
+  display: flex;
+  justify-content: center;
+  gap: 80px;
+  padding-bottom: 30px;
+}
+
+.subprojects {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  gap: 5px;
+}
+
+.subprojects > div {
+  font-family: avenir;
+}
+
+
+.subprojects > img {
+  height: 100px;
+  width: 100px;
+  border: 2px solid #6d9bc3;
+  border-radius: 5px;
+}
+
+.customer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 100px;
+}
+
+.customer-review {
+  font-style: italic;
+}
+
+.customer-box{
+  height: auto;
+  width: 500px;
+  background-color: #1ca9c9;
+  padding: 10px;
+  border-radius: 10px;
+  color: white;
+}
+
+.name-review {
+  text-align: right;
+  font-weight:500;
+}
+
+.sign-up-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  background-color: #009f6b;
+  padding: 30px;
+}
+
+.sign-up-section > button{
+  display: flex;
+  height: 30px;
+  width: 100px;
+  border-radius: 5px;
+  font-size: 1em;
+  text-decoration: none;
+  margin: 2px;
+  padding: 3px;
+  text-align: center;
+  justify-content: center;
+  align-content: center;
+  background-color: white;
+}
+
+footer {
+  display: flex;
+  flex-shrink: 0;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+}
+
